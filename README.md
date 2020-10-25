@@ -149,3 +149,10 @@ Host: webservers
 Which URL do you navigate to in order to check that the ELK server is running?
 
 http://[52.242.124.19]:5601/app/kibana
+
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+
+ansible-playbook elk-playbook.yml (Install and configure elk server)
+ansible-playbook filebeats-playbook.yml (Install and download filebeats)
+ansible-playbook metricbeats-playbook.yml(Install and download metricbeats)
+
